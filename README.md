@@ -1,1 +1,1 @@
-# QWERTY-transfer
+# QWERTY EN <--> UA transfer
