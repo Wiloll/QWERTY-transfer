@@ -1,0 +1,15 @@
+﻿<Window x:Class="QWERTY_Transfer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QWERTY_Transfer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6" HorizontalAlignment="Center" Width="800">
+        <TextBox x:Name="InputTextBox" Width="200" Height="30" VerticalAlignment="Top" Margin="300,93,300,0"/>
+        <Button Content="Get Text" Width="200" Height="30" VerticalAlignment="Top" Margin="300,143,300,0" Click="Trans"/>
+        <TextBlock x:Name="OutputTextBlock" Height="20" VerticalAlignment="Top" Margin="367,262,367,0" TextAlignment="Center" Text="EN to UA"/>
+        <Button x:Name="button" Content="Change Language" Height="44" VerticalAlignment="Top" Margin="342,190,342,0" Click="Change" RenderTransformOrigin="0.517,0.842"/>
+    </Grid>
+</Window>
